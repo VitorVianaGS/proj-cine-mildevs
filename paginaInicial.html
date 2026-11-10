@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineLocal - Filmes em Cartaz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho estruturado com Flexbox -->
+  <header class="header">
+    <h1>🍿 CineLocal</h1>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="#">Em Breve</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <section class="hero">
+      <h2>Em Cartaz Esta Semana</h2>
+      <p>Clique no pôster de qualquer filme para ver a sinopse e detalhes completos.</p>
+    </section>
+
+    <!-- Grade de 3 Filmes usando CSS Grid -->
+    <section class="movie-grid">
+      
+      <!-- Filme 1 -->
+      <article class="movie-card">
+        <a href="filme.html">
+          <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=500&q=80" alt="Pôster do Filme Aventura Espacial">
+        </a>
+        <div class="movie-info">
+          <h3>Aventura Espacial</h3>
+          <p>Ficção Científica • 2h 15min</p>
+        </div>
+      </article>
+
+      <!-- Filme 2 -->
+      <article class="movie-card">
+        <a href="filme.html">
+          <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=500&q=80" alt="Pôster do Filme Mistério na Noite">
+        </a>
+        <div class="movie-info">
+          <h3>Mistério na Noite</h3>
+          <p>Suspense • 1h 50min</p>
+        </div>
+      </article>
+
+      <!-- Filme 3 -->
+      <article class="movie-card">
+        <a href="filme.html">
+          <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80" alt="Pôster do Filme O Grande Drama">
+        </a>
+        <div class="movie-info">
+          <h3>O Grande Drama</h3>
+          <p>Drama • 2h 05min</p>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>&copy; 2026 CineLocal. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
