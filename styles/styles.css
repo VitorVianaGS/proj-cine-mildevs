@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: flex;
+  flex-direction: row;
+}
+
+.movie-grid {
+  background-color: #730606;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 150px;
+  background-color: #d9c8b4;
+  border-radius: 8px;
+}
+
+/* Aqui */
+.movie-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 10px;
+  color: #0c0b09;
+}
+
+.movie-info h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.movie-info p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #0c0b09;
+
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #d9c8b4;
+}
